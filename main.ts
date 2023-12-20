@@ -54,7 +54,7 @@ function createCard({
               (item) => `
               <div class="small-card-container" style="background-color: ${primary_color};">
                 <div class="card-count" style="background-color: ${secondary_color};">${item.count}</div>
-                <div class="card-country">${item.name}</div>
+                <div class="card-country" style="color: ${secondary_color}">${item.name}</div>
               </div>`
             )
             .join("")}

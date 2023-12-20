@@ -88,7 +88,6 @@ body {
 
 .small-card-container {
   width: max-content;
-  color: var(--light-text);
   padding: 0.5rem 0.8rem;
   border-radius: 0.8rem;
 
@@ -98,6 +97,7 @@ body {
 }
 
 .card-count {
+  color: var(--light-text);
   padding: 0.5rem 0.6rem;
   border-radius: 0.5rem;
 }

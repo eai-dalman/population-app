@@ -78,7 +78,7 @@ function createCard(_a) {
     var countries = _a.countries, gender = _a.gender, primary_color = _a.primary_color, secondary_color = _a.secondary_color, total = _a.total;
     var template = document.createElement("template");
     template.innerHTML = "\n    <div class=\"card-container\">\n      <h2 class=\"card-title\">".concat(total, "<span>").concat(gender, "</span></h2>\n\n      <div class=\"content-container\">\n        <span class=\"card-label\">By country</span>\n        <section class=\"small-cards-section\">\n          ").concat(countries
-        .map(function (item) { return "\n              <div class=\"small-card-container\" style=\"background-color: ".concat(primary_color, ";\">\n                <div class=\"card-count\" style=\"background-color: ").concat(secondary_color, ";\">").concat(item.count, "</div>\n                <div class=\"card-country\">").concat(item.name, "</div>\n              </div>"); })
+        .map(function (item) { return "\n              <div class=\"small-card-container\" style=\"background-color: ".concat(primary_color, ";\">\n                <div class=\"card-count\" style=\"background-color: ").concat(secondary_color, ";\">").concat(item.count, "</div>\n                <div class=\"card-country\" style=\"color: ").concat(secondary_color, "\">").concat(item.name, "</div>\n              </div>"); })
         .join(""), "\n        </section>\n      </div>\n    </div>");
     // Render
     var card = template.content.firstElementChild;
