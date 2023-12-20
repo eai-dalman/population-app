@@ -1,0 +1,76 @@
+{
+  "populations": [
+    {
+      "gender": "MEN",
+      "total": "212.9M",
+      "primary_color": "#D7F5F3",
+      "secondary_color": "#38B2AC",
+      "countries": [
+        {
+          "name": "Australia",
+          "count": "12.84M"
+        },
+        {
+          "name": "China",
+          "count": "16.46M"
+        },
+        {
+          "name": "Indonesia",
+          "count": "139.13M"
+        },
+        {
+          "name": "Kenya",
+          "count": "27.32M"
+        }
+      ]
+    },
+    {
+      "gender": "WOMEN",
+      "total": "212.9M",
+      "primary_color": "#E9E0FF",
+      "secondary_color": "#553C9A",
+      "countries": [
+        {
+          "name": "Australia",
+          "count": "12.94M"
+        },
+        {
+          "name": "Ghana",
+          "count": "16.38M"
+        },
+        {
+          "name": "Indonesia",
+          "count": "137.23M"
+        },
+        {
+          "name": "Kenya",
+          "count": "27.66M"
+        }
+      ]
+    },
+    {
+      "gender": "YOUTH",
+      "total": "172.9M",
+      "primary_color": "#CCE6FF",
+      "secondary_color": "#3182CE",
+      "countries": [
+        {
+          "name": "Australia",
+          "count": "5.71M"
+        },
+        {
+          "name": "Ghana",
+          "count": "14.62M"
+        },
+        {
+          "name": "Indonesia",
+          "count": "82.96M"
+        },
+        {
+          "name": "Kenya",
+          "count": "24.42M"
+        }
+      ]
+    }
+  ]
+}
